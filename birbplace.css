@@ -1,69 +1,80 @@
 head {
     text-align:center;
-    font-family: "Eagle Lake", serif;
+    font-family: "Story Script", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: rgb(68, 51, 3);
-    color:rgb(7, 7, 102);
+    background: rgb(24, 130, 175);
+    color:rgb(57, 12, 163);
     margin:15px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.story-script-regular {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 body {
     text-align:center;
-    font-family: "Eagle Lake", serif;
+    font-family: "Story Script", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    background: rgb(68, 51, 3);
-    color:rgb(34, 109, 59);
+    background: rgb(24, 130, 175);
+    color:rgb(57, 12, 163);
     margin:50px;
+}
+a {
+    color:rgb(181, 129, 231)
 }
 .darkbirbmovement{
     margin:0;
     justify-content:center;
     align-items:center;
     width: 200px;
-    animation: movelikeacrab 3s ease-in-out infinite alternate;
+    animation: movelikeacrab 5s ease-in-out infinite alternate;
 }
 @keyframes movelikeacrab {
-    0%{transform:translateY(-150px);}
-    50%{transform:translateY(150px);}
-    100%{transform:translateY(-150px);}
+    0%{transform:translateX(-100px);}
+    50%{transform:translateX(650px);}
+    100%{transform:translateX(-100px);}
 }
 .greenparrotmovement{
     margin:0;
     justify-content:center;
     align-items:center;
     width: 200px;
-    animation: movelikeasadcrab 3s ease-in-out infinite alternate;
+    animation: movelikeasadcrab 5s ease-in-out infinite alternate;
 }
 @keyframes movelikeasadcrab {
-    0%{transform:translateY(150px);}
-    50%{transform:translateY(-150px);}
-    100%{transform:translateY(150px);}
+    0%{transform:translateX(450px);}
+    50%{transform:translateX(-300px);}
+    100%{transform:translateX(450px);}
 }
 .rainbowparrotmovement{
-    position:absolute(center);
-    margin:0;
+    position:relative(-100px);
+    margin-left:-190px;
     justify-content:center;
     align-items:center;
     width: 200px;
-    animation: movelikeastrangecrab 3s ease-in-out infinite alternate;
+    animation: movelikeastrangecrab 5s ease-in-out infinite alternate;
 }
 @keyframes movelikeastrangecrab {
-    0%{transform:translateY(-150px);}
-    50%{transform:translateY(150px);}
-    100%{transform:translateY(-150px);}
+    0%{transform:translateY(150px);}
+    50%{transform:translateY(-150px);}
+    100%{transform:translateY(150px);}
 }
 .whitebirbmovement{
     position:absolute(center);
-    margin:0;
+    margin-left:0;
     justify-content:center;
     align-items:center;
     width: 200px;
-    animation: movelikeastrangesadcrab 3s ease-in-out infinite alternate;
+    animation: movelikeastrangesadcrab 5s ease-in-out infinite alternate;
 }
 @keyframes movelikeastrangesadcrab {
-    0%{transform:translateY(150px);}
-    50%{transform:translateY(-150px);}
-    100%{transform:translateY(150px);}
+    0%{transform:translateY(-150px);}
+    50%{transform:translateY(150px);}
+    100%{transform:translateY(-150px);}
 }

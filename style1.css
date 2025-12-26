@@ -1,0 +1,30 @@
+head {
+    text-align:center;
+    background: rgb(255, 255, 255);
+    color:rgb(228, 198, 96);
+    margin:15px;
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    text-align:center;
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    color:rgb(228, 198, 96);
+    margin:50px;
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    color:rgb(183, 250, 228);
+}
+.sancreek-regular {
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.grid{
+    
+}
