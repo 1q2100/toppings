@@ -7,17 +7,27 @@ head {
     font-weight: 400;
     font-style: normal;
 }
+@media (max-width:550px){
+    .flex-container{
+        flex-direction: column; /* If you're reading this, sorry, i couldn't think of anything more original :(*/
+    }
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    background-color: var(--med-col);
+    padding:20px;
+    color:rgb(127, 194, 252);
+}
 div{
     text-align:center;
-    font-family: "Sancreek", serif;
     font-weight: 400;
     font-style: normal;
-    background:none;
-    color:rgb(25, 18, 61);
+    background:rgb(0, 219, 146);
     border: solid 3px rgb(25,18,61);
-    margin-left:250px;
-    margin-right:250px;
-    margin-top:-25px;
     padding:5px;
 }
 body {
@@ -31,7 +41,7 @@ body {
     font-style: normal;
 }
 a {
-    color:rgb(153, 255, 122);
+    color:rgb(43, 255, 0);
 }
 .sancreek-regular {
     font-family: "Sancreek", serif;
