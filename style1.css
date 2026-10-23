@@ -91,4 +91,8 @@ a {
     .flex-container{
         flex-direction: column;
     }
+    .box{
+            padding:0;
+            border:0;
+    }
 }
