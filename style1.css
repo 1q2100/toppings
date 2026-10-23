@@ -7,16 +7,6 @@ head {
     font-weight: 400;
     font-style: normal;
 }
-@media (max-width:550px){
-    .flex-container{
-        flex-direction: column; /* If you're reading this, sorry, i couldn't think of anything more original :(*/
-    }
-}
-.flex-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .item{
     background-color: var(--med-col);
     padding:20px;
@@ -96,4 +86,9 @@ a {
     background:rgb(25, 18, 61);
     padding:25px;
     color:rgb(228,198,96);
+}
+@media only screen and (max-width: 550px) {
+    .flex-container{
+        flex-direction: column; /* If you're reading this, sorry, i couldn't think of anything more original :(*/
+    }
 }
