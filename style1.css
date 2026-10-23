@@ -89,6 +89,6 @@ a {
 }
 @media only screen and (max-width: 550px) {
     .flex-container{
-        flex-direction: column; /* If you're reading this, sorry, i couldn't think of anything more original :(*/
+        flex-direction: column;
     }
 }
